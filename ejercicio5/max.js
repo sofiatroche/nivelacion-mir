@@ -5,9 +5,9 @@ function max(arg){
             maximo = arg[i];
         }
     }
-    if(maximo == 0){
-        maximo ="Undefined";
-    }
+     if(maximo == 0){
+        maximo ="undefined";
+    } 
     return maximo;
 }
 console.log(max([1,2,3]))

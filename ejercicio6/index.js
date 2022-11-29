@@ -9,11 +9,14 @@ console.log(pedro.edad);
 delete pedro.activo; 
 console.log(pedro.activo);
 
-
 for (let key in pedro) {
     console.log(key,":", pedro[key]);
 }
-function saluda(){
+/* function saluda(){
+    return ("Hola, me llamo " + pedro.nombre); 
+} */
+
+const saluda = () => {
     return ("Hola, me llamo " + pedro.nombre); 
 }
 

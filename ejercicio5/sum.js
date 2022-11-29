@@ -3,6 +3,6 @@ function sum(arg){
     for (let i = 0; i < arg.length; i++) {
         suma += arg[i];
     }
-    return suma
+    return suma;
 }
 console.log(sum([1,2,3]))

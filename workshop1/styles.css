@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+.border {
+    border-radius: 20px;
+    width: 398px;
+    height: 565.95;
+}
+.center {
+    margin: 0 auto;
+}
+
+
+.profile-header {
+    background-image: linear-gradient(#4f5d75, #2d3142);
+    margin: 0 auto;
+} 
+
+  .circular--square {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+}
+  .font{
+    font: 150% sans-serif;
+    color: #3c7ade;
+  
+}
+
+.profile-body{
+    font: 150% sans-serif;
+    color: #717777;
+  }
+
+
+  .profile-footer{
+    width: 350px;
+    height: 117.98px;
+  } 
+  .circular--square--icons {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+  }
+
+  .social-icons {
+    width: 350px;
+    height: 117.98px;
+}
